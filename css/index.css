@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  background-image: url("https://www.casualarena.com/bundles/app/st/games/co4/featured/featured-game-co4-en-m.png?4389480");
+  background-size: 100:
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+#connect4{
+  width: 700px;
+  background-color: blue;
+  display: inline=block;
+}
+
+.col{
+  border-style: double;
+  width:60px;
+  height:60px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  margin:7px;
+}
+
+.next-red {
+  background-color: green;
+}
+
+.next-black {
+  background-color: blue;
+}
+
+.col.one {
+  background-color: red;
+}
+
+.col.two {
+  background-color: yellow;
+}
+
+.col.empty {
+  cursor: pointer;
+}
